@@ -1,14 +1,16 @@
+
 <div class="form">
-    <form action="/" method="post">
-        <input type="hidden" name="authenticity_token"/>
-            <input type="text" name="my_input" placeholder="Take a note..."/>
-            <input type="submit" value="Post"/>
-    </form>
+    <%= form_with model: @note do |form| %>
+    <div>
+        <%= form.text_field :content, placeholder:"Take a note..."%>
+        <%= form.submit%>
+    </div>
+    <% end %>
 </div>
 
 <div class="container">
     <div class="board">
-        <% @all_notes.each do |note|%>
+        <% @all_notes.reverse_each do |note|%>
             <div class="note">
                 <%= note.content %>
             </div>

@@ -5,23 +5,24 @@ Academy Pittsburgh project to use Rails to create something similar to Google Ke
 
 
 ## To Do
-[x] Create model, view, and controller for notes
-[x] Set up initial route
-[x] Model migration
-[x] Basic note styling (square, color, in a row)
-[x] Add form to create new notes that redirects to same page
-[] Add ability to delete notes
-[] Add ability to edit notes
-[] Update styling
-    [] Box shadows
-    [] Drag and drop-able
-    [] Change colors
-    [] Select color when you create it 
+- [x] Create model, view, and controller for notes
+- [x] Set up initial route
+- [x] Model migration
+- [x] Basic note styling (square, color, in a row)
+- [x] Add form to create new notes that redirects to same page
+- [x] Prevent blank notes from being saved
+- [] Add ability to delete notes
+- [] Add ability to edit notes
+- [] Update styling
+    - [] Box shadows
+    - [] Drag and drop-able
+    - [] Change colors
+    - [] Select color when you create it 
 
 
 ## Remaining Project Questions
-[ ] Can this be deployed to be shared? What would that require?
-[ ] What kind of testing can you create/run for this type of program
+Can this be deployed to be shared? What would that require?
+What kind of testing can you create/run for this type of program
 
 
 Things to look up and confirm:
