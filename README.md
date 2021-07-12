@@ -1,24 +1,35 @@
-# README
+# Sticky Notes
+Academy Pittsburgh project to use Rails to create something similar to Google Keep/Miro Boards. It allows you to create new post-it notes, edit them, remove old notes, and rearrange notes on the page.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version - 3.0.0p0
 
-Things you may want to cover:
 
-* Ruby version
+## To Do
+[x] Create model, view, and controller for notes
+[x] Set up initial route
+[x] Model migration
+[x] Basic note styling (square, color, in a row)
+[x] Add form to create new notes that redirects to same page
+[] Add ability to delete notes
+[] Add ability to edit notes
+[] Update styling
+    [] Box shadows
+    [] Drag and drop-able
+    [] Change colors
+    [] Select color when you create it 
+
+
+## Remaining Project Questions
+[ ] Can this be deployed to be shared? What would that require?
+[ ] What kind of testing can you create/run for this type of program
+
+
+Things to look up and confirm:
 
 * System dependencies
-
 * Configuration
-
 * Database creation
-
 * Database initialization
-
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
 * Deployment instructions
 
-* ...

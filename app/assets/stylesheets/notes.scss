@@ -1,3 +1,59 @@
 // Place all the styles related to the Notes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+//for the page
+.container {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 90vw;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+//for the post-its
+.board {
+    display: flex;
+    flex-flow: row wrap; 
+}
+
+.note {
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    margin: 1em;
+    padding: 1em;
+}
+
+
+
+input[type=text]{
+    height: 50px;
+    padding: 0px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: medium;
+}
+
+input[type=submit] {
+    background-color: lightgray;
+    color: white;
+    height: 50px;
+    width: auto;
+    font-size: medium;
+    padding: 15px 20px;
+    margin: 8px 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: lightslategrey;
+  }
