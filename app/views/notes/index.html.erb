@@ -12,7 +12,8 @@
     <div class="board">
         <% @all_notes.reverse_each do |note|%>
             <div class="note">
-                <%= note.content %>
+                <div><%= note.content %></div>
+                <%= link_to "Delete", "/notes/" + note.id.to_s, method: "delete" %>
             </div>
         <% end %>
     </div>

@@ -11,7 +11,7 @@ Academy Pittsburgh project to use Rails to create something similar to Google Ke
 - [x] Basic note styling (square, color, in a row)
 - [x] Add form to create new notes that redirects to same page
 - [x] Prevent blank notes from being saved
-- [ ] Add ability to delete notes
+- [x] Add ability to delete notes
 - [ ] Add ability to edit notes
 - [ ] Update styling
     - [ ] Box shadows
