@@ -3,6 +3,7 @@ Academy Pittsburgh project to use Rails to create something similar to Google Ke
 
 * Ruby version - 3.0.0
 
+![Image of Notes Page](https://github.com/reg710/notes/blob/main/screenshots/Screen%20Shot%202021-07-14%20at%202.46.53%20PM.png)
 
 ## To Do
 - [x] Create model, view, and controller for notes
