@@ -1,5 +1,5 @@
 # Sticky Notes
-Academy Pittsburgh project to use Rails to create something similar to Google Keep/Miro Boards. It allows you to create new post-it notes, edit them, remove old notes, and rearrange notes on the page.
+Academy Pittsburgh project to use Rails to create something similar to Google Keep/Miro Boards. It allows you to create new post-it notes and remove old notes. I'd like to come back to add ability to rearrange notes on the page and change note colors.
 
 * Ruby version - 3.0.0
 
@@ -12,15 +12,11 @@ Academy Pittsburgh project to use Rails to create something similar to Google Ke
 - [x] Add form to create new notes that redirects to same page
 - [x] Prevent blank notes from being saved
 - [x] Add ability to delete notes
-- [ ] Add ability to edit notes
-- [ ] Update styling
-    - [ ] Box shadows
-    - [ ] Drag and drop-able
-    - [ ] Change colors
-    - [ ] Select color when you create it 
 
-
-## Remaining Project Questions
+## Still to Do and Remaining Project Questions
+- [ ] Add ability to select color for new notes
+- [ ] Change existing note colors
+- [ ] Make them drag/droppable 
 Can this be deployed to be shared? What would that require?
 What kind of testing can you create/run for this type of program
 

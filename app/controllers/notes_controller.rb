@@ -11,11 +11,11 @@ class NotesController < ApplicationController
   end
 
   def destroy
+    # for debugging
+    # puts "YOU MADE IT HERE and here's a #{note}"
     note = Note.find(params[:id])
-    puts "YOU MADE IT HERE and here's a #{@note}"
     note.destroy
     redirect_to '/'
-
   end
 
 end

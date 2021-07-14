@@ -13,7 +13,11 @@
         <% @all_notes.reverse_each do |note|%>
             <div class="note">
                 <div><%= note.content %></div>
-                <%= link_to "Delete", "/notes/" + note.id.to_s, method: "delete" %>
+                <div class="remove"><%= link_to "x", 
+                    "/notes/#{note.id}", 
+                    method: "delete" 
+                    # data: { confirm: "Are you sure?" }
+                     %></div>
             </div>
         <% end %>
     </div>
