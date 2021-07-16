@@ -18,8 +18,9 @@ Academy Pittsburgh project to use Rails to create something similar to Google Ke
 - [ ] Add ability to select color for new notes
 - [ ] Change existing note colors
 - [ ] Make them drag/droppable 
+
 Can this be deployed to be shared? What would that require?
-What kind of testing can you create/run for this type of program
+What kind of testing can I create/run for this type of program?
 
 
 Things to look up and confirm:
