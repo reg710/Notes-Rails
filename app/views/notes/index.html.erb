@@ -14,7 +14,7 @@
 <div class="container">
     <div class="board">
         <% @all_notes.reverse_each do |note|%>
-            <div class="note">
+            <div class="note" style="background-color:<%=note.color%>">
                 <div><%= note.content %></div>
                 <div class="remove"><%= link_to "x", 
                     "/notes/#{note.id}", 
