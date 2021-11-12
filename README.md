@@ -13,13 +13,15 @@ Academy Pittsburgh project to use Rails to create something similar to Google Ke
 - [x] Add form to create new notes that redirects to same page
 - [x] Prevent blank notes from being saved
 - [x] Add ability to delete notes
+- [x] Update model to include field for color
+- [x] Add basic ability to select color for new notes
 
 ## Still to Do and Remaining Project Questions
-- [ ] Add ability to select color for new notes
 - [ ] Change existing note colors
 - [ ] Make them drag/droppable 
+
 Can this be deployed to be shared? What would that require?
-What kind of testing can you create/run for this type of program
+What kind of testing can I create/run for this type of program?
 
 
 Things to look up and confirm:
