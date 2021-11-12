@@ -3,8 +3,11 @@
     <%= form_with model: @note do |form| %>
     <div>
         <%= form.text_field :content, placeholder:"Take a note..."%>
+        <!-- <%= form.text_field :color%> -->
+        <input type="hidden" name="color" value="yellow" id="chosen_color">
         <%= form.submit%>
     </div>
+    <div class="color_option" onclick="pickMe(id)" id="purple"></div>
     <% end %>
 </div>
 
@@ -22,4 +25,11 @@
         <% end %>
     </div>
 </div>
+
+<script>
+function pickMe(id){
+    let color = document.getElementById("chosen_color")
+    color.value = id
+}
+</script>
 

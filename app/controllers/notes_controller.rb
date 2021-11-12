@@ -6,6 +6,7 @@ class NotesController < ApplicationController
   def create
     note = Note.new
     note.content = params[:content]
+    note.color = params[:color]
     note.save
     redirect_to '/'
   end
